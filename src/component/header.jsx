@@ -51,14 +51,14 @@ class Header extends React.Component {
                 </div> */}
               </div>
 
-              <div className="navbar-end">
+              {/* <div className="navbar-end">
                 <a className="navbar-item">Home</a>
 
                 <a className="navbar-item">World</a>
                 <a className="navbar-item">Country</a>
                 <a className="navbar-item">COVID-19</a>
                 <div className="navbar-item"></div>
-              </div>
+              </div> */}
             </div>
           </div>
         </nav>
