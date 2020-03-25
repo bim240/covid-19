@@ -7,6 +7,7 @@ class World extends React.Component {
     };
   }
   componentDidMount() {
+    console.log("hello");
     fetch("https://corona.lmao.ninja/all")
       .then(res => res.json())
       .then(res => this.setState({ worldReport: res }));
@@ -20,7 +21,7 @@ class World extends React.Component {
             <h1 class="title">World Report</h1>
             <h2 class="subtitle">
               A Real time report of all the <strong>COVID-19</strong> patient
-              around globe
+              around the globe
             </h2>
             <table class="table">
               <thead>
