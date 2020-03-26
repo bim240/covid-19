@@ -3,7 +3,7 @@ import React from "react";
 const Country = ({ info }) => {
   return (
     <>
-      {console.log(info)}
+      {/* {console.log(info)} */}
       <tbody>
         <tr>
           <th>{info.country}</th>
