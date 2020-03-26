@@ -7,7 +7,7 @@ class World extends React.Component {
     };
   }
   componentDidMount() {
-    console.log("hello");
+    // console.log("hello");
     fetch("https://corona.lmao.ninja/all")
       .then(res => res.json())
       .then(res => this.setState({ worldReport: res }));

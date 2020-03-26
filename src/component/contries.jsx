@@ -34,7 +34,7 @@ class Countries extends React.Component {
     return this.state.countriesReport ? (
       <>
         {/* {console.log(this.state.countriesReport[0])} */}
-        {console.log(this.state.searchedCountry)}
+        {/* {console.log(this.state.searchedCountry)} */}
         <section class="section">
           <div class="container">
             <h1 class="title">Country </h1>
