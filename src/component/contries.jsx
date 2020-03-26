@@ -58,7 +58,7 @@ class Countries extends React.Component {
                 </a>
               </div>
               {this.state.searchedCountry ? (
-                <div class="control">
+                <div class="control margin-left">
                   <a class="button is-info" onClick={this.handleSearchBox}>
                     Show All
                   </a>
