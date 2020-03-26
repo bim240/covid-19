@@ -1,5 +1,5 @@
 import React from "react";
-
+import Graph from "./graph";
 const Country = ({ info }) => {
   return (
     <>

@@ -16,14 +16,14 @@ class World extends React.Component {
   render() {
     return this.state.worldReport ? (
       <>
-        <section class="section">
-          <div class="container">
-            <h1 class="title">World Report</h1>
-            <h2 class="subtitle">
+        <section className="section">
+          <div className="container">
+            <h1 className="title">World Report</h1>
+            <h2 className="subtitle">
               A Real time report of all the <strong>COVID-19</strong> patient
               around the globe
             </h2>
-            <table class="table">
+            <table className="table">
               <thead>
                 <tr>
                   <th title="">Table</th>
