@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -15,7 +15,7 @@ class Header extends React.Component {
         >
           <div className="container">
             <div className="navbar-brand">
-              <a className="navbar-item" href="https://bulma.io">
+              <a className="navbar-item" href="/">
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSuMuLifa-LpG6gmhsXYsQ5Ha9NF0EZbOF8EyVbkxoNqAoCvjo0"
                   width="112"
@@ -51,14 +51,16 @@ class Header extends React.Component {
                 </div> */}
               </div>
 
-              {/* <div className="navbar-end">
-                <a className="navbar-item">Home</a>
+              <div className="navbar-end">
+                <Link to="/graphs" className="navbar-item">
+                  Graphs
+                </Link>
 
-                <a className="navbar-item">World</a>
+                {/* <a className="navbar-item">World</a>
                 <a className="navbar-item">Country</a>
-                <a className="navbar-item">COVID-19</a>
+                <a className="navbar-item">COVID-19</a> */}
                 <div className="navbar-item"></div>
-              </div> */}
+              </div>
             </div>
           </div>
         </nav>
