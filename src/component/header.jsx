@@ -52,6 +52,9 @@ class Header extends React.Component {
               </div>
 
               <div className="navbar-end">
+                <Link to="/" className="navbar-item">
+                  Home
+                </Link>
                 <Link to="/graphs" className="navbar-item">
                   Graphs
                 </Link>

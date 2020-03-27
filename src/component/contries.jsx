@@ -46,7 +46,6 @@ class Countries extends React.Component {
               <div class="control">
                 <input
                   class="input"
-                  onChange={this.handleSearch}
                   ref={this.searchCountryName}
                   type="text"
                   placeholder="Find a country"
